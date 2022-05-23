@@ -8,6 +8,9 @@ import {
 
 import HomeComponent from './HomeComponent';
 import HeaderComponent from './HeaderComponent';
+import ExperienceComponent from './ExperienceComponent';
+import EducationComponent from './EducationComponent';
+import AboutMeComponent from './AboutMeComponent';
 
 export class ResumeApp extends Component {
   render() {
@@ -17,6 +20,9 @@ export class ResumeApp extends Component {
               <HeaderComponent />
               <Routes>
                 <Route path="/" element={<HomeComponent />} />
+                <Route path="/experience" element={<ExperienceComponent />} />
+                <Route path="/education" element={<EducationComponent />} />
+                <Route path="/aboutme" element={<AboutMeComponent />} />
                 <Route path="/*" element={<ErrorComponent />} />
               </Routes>
           </Router>
