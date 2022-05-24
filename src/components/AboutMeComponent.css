@@ -1,6 +1,7 @@
 .aboutme-component{
     padding: 20px 0;
     background-image: linear-gradient(#BFEDEF, white);
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 
 .info{
