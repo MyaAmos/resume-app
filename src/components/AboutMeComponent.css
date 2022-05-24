@@ -1,0 +1,20 @@
+.aboutme-component{
+    padding: 20px 0;
+    background-image: linear-gradient(#BFEDEF, white);
+}
+
+.info{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.info-div{
+    font-family: 'Akshar', sans-serif;
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+}
+

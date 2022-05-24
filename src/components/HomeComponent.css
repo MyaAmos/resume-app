@@ -3,6 +3,7 @@ font-family: 'Akshar', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Flex', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; 
+font-family: 'Lobster', cursive;
 */
 
 .home-component{
@@ -13,7 +14,7 @@ font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 20px;
 
     font-family: 'Montserrat', sans-serif;
 }
