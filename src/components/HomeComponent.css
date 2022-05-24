@@ -27,3 +27,17 @@ font-family: 'Source Sans Pro', sans-serif;
 .info{
     margin: 20px 0;
 }
+
+.body-section{
+    margin-top: 25px;
+    font-family: 'Akshar', sans-serif;
+}
+
+.skills-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-list{
+    list-style: none;
+}

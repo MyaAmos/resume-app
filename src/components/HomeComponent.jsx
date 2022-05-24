@@ -15,6 +15,24 @@ export class HomeComponent extends Component {
             <h4>A Software Engineer</h4>
           </div>
         </div>
+        <div className="body-section">
+          <h3>Skills</h3>
+          <div className="skills-list">
+            <ul className="home-list">
+              <li>Hardworking</li>
+              <li>Problem Solver</li>
+              <li>Customer Service</li>
+              <li>Team Player</li>
+            </ul>
+            <ul className="home-list">
+              <li>Java</li>
+              <li>React</li>
+              <li>Springboot</li>
+              <li>Mobile</li>
+              <li>Website</li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
